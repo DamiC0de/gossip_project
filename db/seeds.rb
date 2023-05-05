@@ -11,7 +11,7 @@ require 'faker'
 
 # Création de 10 villes
 10.times do
-  City.create(name: Faker::Address.city, zip_code: Faker::Address.zip_code)
+  City.create(name: Faker::Address.city, zip_code: Faker::Address.zip_code) 
 end
 
 # Création de 10 utilisateurs
